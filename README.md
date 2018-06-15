@@ -7,12 +7,19 @@
 * Testing the searching capabilities of the www.booking.com platform
   with different search parameters and checking if the resulting search
   will perform as expected after applying filtering options.
+* In this test case are tested both the capabilities of the platofrm to
+perform under different variables such as number of persons, rooms or 
+different dates having as a final output a listing of acommodation offers.
+The output is filtered by some random criteria to add an extra step of 
+confidence that all the search functionalities are working.
+  
 -------------------
 ### Strategy
 * Firstly Exploratory testing was conducted in order to observe the 
   platform's behaviour. Toghether with the provided scenario, and comparing
-  with the previous steps an artchitecture was built that would allow fast
+  with the previous steps an architecture was built that would allow fast
   changes and a rapid devlopment of the tests.
+* The used architecture was build upon page object design pattern.
 
 -------------------
 ### Setup
@@ -20,7 +27,16 @@
   On top of them JUnit and Cucumber were used in order to create a more
   efficient architecture. Also Log4j was used for logging.
   
-  
+
+-------------------
+## Dependencies
+* selenium 3.8.1
+* log4j 1.2.17
+* junit 4.12
+* io.cucumber 2.3.1
+## Plugins
+* maven-surefire-plugin
+
 -------------------
 ### Folders & Structure
 * annotations - /src/java/annotation - here are all the step definitions for scenarios defined in the feature file
@@ -35,11 +51,11 @@
 2. Go to the project location .. cd /framework
 3. Build with Maven  mvn clean test -Dtags='@BookingPath'
 
-
 -------------------
 ### Recovery
 * In the case of test failure then run it again and only if the second test fail 
- consider this test as failure. If it fails to tear down the fixture to it root …
+ consider this test as failure. A Cucumber report is generated after each run in /target/booking/index.html
+ having at each step failure a screenshot of the browser.
 
 
 -------------------
@@ -56,6 +72,12 @@
 * @BookingPath executes the scenario for both Chrome and Firefox
 *  @Chrome wil run the scenario just on Chrome
 * @Firefox will run the scenario just on Firefox
+
+
+-------------------
+### Local Test Environment
+* Windows 10
+* Selenium Grid
 
 
 -------------------
