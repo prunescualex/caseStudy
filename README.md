@@ -97,3 +97,20 @@ confidence that all the search functionalities are working.
   12.  Then User checks first listings by "review"
 
 -------------------
+### Coverage
+
+* Consider 100% coverage would be all the manual tests cases that could be performed on the search
+feature of the platform, current automated scenario allows the following:
+  1. Fixed destination
+  2. 
+  
+|Test step  |Automation  | Manual |
+|-|| ------------- | ------------- |
+|2|| Fixed destination  | positive/negative flows  |
+|3||  Random dates | positive/negative flows  |
+|4|| Fixed adult number  | more cases  |
+|5|| Fixed children number  | more cases  |
+|6|| Fixed room number  | more cases  |
+|9|| Random filtering  | Random filtering  |
+|10|| Random filtering  | Random filtering  |
+
