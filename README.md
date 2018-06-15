@@ -105,12 +105,12 @@ feature of the platform, current automated scenario allows the following:
   2. 
   
 |Test step  |Automation  | Manual |
-|-|| ------------- | ------------- |
-|2|| Fixed destination  | positive/negative flows  |
-|3||  Random dates | positive/negative flows  |
-|4|| Fixed adult number  | more cases  |
-|5|| Fixed children number  | more cases  |
-|6|| Fixed room number  | more cases  |
-|9|| Random filtering  | Random filtering  |
-|10|| Random filtering  | Random filtering  |
+|-| ------------- | ------------- |
+|2| Fixed destination  | positive/negative flows  |
+|3|  Random dates | positive/negative flows  |
+|4| Fixed adult number  | more cases  |
+|5| Fixed children number  | more cases  |
+|6| Fixed room number  | more cases  |
+|9| Random filtering  | Random filtering  |
+|10| Random filtering  | Random filtering  |
 
