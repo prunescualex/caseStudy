@@ -1,7 +1,7 @@
 @BookingPath
 Feature: Script for case study
 
-  @Chrome @Booking
+  @MobileAndroid @Booking
   Scenario: User makes a booking on google chrome
     Given User lands on booking.com page
     And User writes destination "Munich"

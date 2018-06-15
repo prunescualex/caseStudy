@@ -3,48 +3,29 @@ package annotation;
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import pageObjects.LandingPage;
 import utils.Base;
 
 public class TestBehaviours {
+    private Logger logger = LogManager.getLogger(TestBehaviours.class.getName());
 
     @Before("@Chrome")
     public void initChromeDriver()
     {
-        System.out.println("working test");
+        logger.info("Launching chrome driver");
         Base.initDriver("chrome");
+
     }
 
     @Before("@Firefox")
     public void initFirefoxDriver()
     {
-        System.out.println("CHECKING");
+        logger.info("Launching firefox driver");
         Base.initDriver("firefox");
-    }
-
-    @Before("@MobileAndroid")
-    public void initMobileAndroid()
-    {
-        Base.initDriver("mAndroid");
-    }
-
-    @Before("@TabletAndroid")
-    public void tabletAndroid()
-    {
-        Base.initDriver("tAndroid");
-    }
-
-    @Before("@MobileIos")
-    public void initMobileIos()
-    {
-        Base.initDriver("mIOS");
-    }
-
-    @Before("@TabletIOS")
-    public void initTabletIos()
-    {
-        Base.initDriver("tIOS");
     }
 
     @After

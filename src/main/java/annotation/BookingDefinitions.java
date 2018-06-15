@@ -1,11 +1,8 @@
 package annotation;
 
-import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import pageObjects.LandingPage;
 import pageObjects.SearchPage;
@@ -17,7 +14,6 @@ public class BookingDefinitions {
 
     private LandingPage landingPage;
     private SearchPage searchPage;
-
 
     @Given("^User lands on booking.com page$")
     public void goToLandingPage(){
@@ -78,8 +74,6 @@ public class BookingDefinitions {
     @And("^User checks first listings by \"(.*)\"$")
     public void checkFirstListings(String arg)
     {
-
         assertTrue("Something wrong on iterating "+ arg +" listings" , searchPage.iterateThroughListings(arg));
-
     }
 }

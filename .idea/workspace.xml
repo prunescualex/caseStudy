@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23c9f39e-1668-41ae-af39-db7b4d5aca6f" name="Default" comment="" />
+    <list default="true" id="23c9f39e-1668-41ae-af39-db7b4d5aca6f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/booking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/booking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/booking.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/booking.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/booking/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/booking/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/booking/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/booking/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Base$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Base$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/DataGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DataGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/booking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/booking.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +32,8 @@
       <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-967">
-              <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
+            <state relative-caret-position="119">
+              <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7451#7452#0" expanded="true" />
@@ -27,15 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBehaviours.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestBehaviours.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-              <folding>
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -69,8 +81,8 @@
       <file leaf-file-name="booking.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/booking.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="158">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-562">
+            <state relative-caret-position="-409">
               <caret column="14" selection-start-column="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,11 +111,10 @@
       <file leaf-file-name="Base.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="288">
+              <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
               <folding>
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="e#2663#2664#0" expanded="true" />
                 <element signature="e#2692#2693#0" expanded="true" />
                 <element signature="e#2740#2741#0" expanded="true" />
@@ -178,6 +189,9 @@
       <find>error at</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -189,15 +203,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Ghecko.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/TestBehaviours.java" />
-        <option value="$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java" />
         <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/annotation/BookingDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/booking.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SearchPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/DataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/booking.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java" />
       </list>
     </option>
   </component>
@@ -234,6 +248,7 @@
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -366,7 +381,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JUnit.TestBooking">
     <configuration name="DataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.DataGenerator" />
       <module name="framework" />
@@ -450,8 +465,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JUnit.TestBooking" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.DataGenerator" />
         <item itemvalue="Application.Ghecko" />
       </list>
@@ -471,17 +486,11 @@
       <workItem from="1528814933271" duration="120000" />
       <workItem from="1528895137665" duration="6869000" />
       <workItem from="1529064840407" duration="9557000" />
-      <workItem from="1529079266372" duration="6124000" />
+      <workItem from="1529079266372" duration="6790000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBooking - 2018.06.15 at 20h 19m 40s.xml">
-      <configuration name="TestBooking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBooking - 2018.06.15 at 20h 24m 15s.xml">
-      <configuration name="TestBooking" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBooking - 2018.06.15 at 20h 32m 18s.xml">
       <configuration name="TestBooking" configurationId="JUnit" />
     </history-entry>
@@ -506,9 +515,15 @@
     <history-entry file="TestBooking - 2018.06.15 at 20h 46m 59s.xml">
       <configuration name="TestBooking" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBooking - 2018.06.15 at 21h 03m 08s.xml">
+      <configuration name="TestBooking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBooking - 2018.06.15 at 21h 06m 39s.xml">
+      <configuration name="TestBooking" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54353000" />
+    <option name="totallyTimeSpent" value="55019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -523,7 +538,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.016107382" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37606838" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -571,8 +586,7 @@
         <state relative-caret-position="102">
           <caret line="23" column="78" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="78" />
           <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
             <element signature="e#2692#2693#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
@@ -637,10 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,8 +686,7 @@
         <state relative-caret-position="2737">
           <caret line="194" column="9" selection-start-line="194" selection-start-column="9" selection-end-line="194" selection-end-column="9" />
           <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
             <element signature="e#2692#2693#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
@@ -760,8 +769,7 @@
         <state relative-caret-position="2108">
           <caret line="155" column="81" selection-start-line="155" selection-start-column="81" selection-end-line="155" selection-end-column="81" />
           <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
             <element signature="e#2692#2693#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
@@ -844,8 +852,7 @@
         <state relative-caret-position="2108">
           <caret line="155" column="81" selection-start-line="155" selection-start-column="81" selection-end-line="155" selection-end-column="81" />
           <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
             <element signature="e#2692#2693#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
@@ -953,44 +960,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/booking/embedded0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/BookingDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="193">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/booking.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="-409">
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="288">
+          <caret line="89" column="47" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
           <folding>
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
             <element signature="e#2663#2664#0" expanded="true" />
             <element signature="e#2692#2693#0" expanded="true" />
             <element signature="e#2740#2741#0" expanded="true" />
@@ -1009,10 +1007,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SearchPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/booking.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        <state relative-caret-position="158">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/BookingDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1021,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-967">
-          <caret line="177" column="51" selection-start-line="177" selection-start-column="51" selection-end-line="177" selection-end-column="51" />
+        <state relative-caret-position="119">
+          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7451#7452#0" expanded="true" />
@@ -1031,13 +1036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DataGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/TestBehaviours.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
         </state>
       </provider>
     </entry>

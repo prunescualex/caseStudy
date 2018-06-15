@@ -7,6 +7,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.CapabilityType;
@@ -76,6 +77,19 @@ public class Base {
     }
 
     public static WebDriver launchMobileAndroid(){
+
+        String driverLocation = System.getProperty("user.dir") + "\\browser_drivers\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver",driverLocation);
+
+        Map<String, String> mobileEmulation = new HashMap<>();
+        mobileEmulation.put("deviceName", "Nexus 5");
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+
+        driver = new ChromeDriver(chromeOptions);
+        driver.manage().window().maximize();
+
         return driver;
     }
 

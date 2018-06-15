@@ -249,7 +249,7 @@ public class LandingPage extends LoadableComponent<LandingPage> {
         AjaxElementLocatorFactory locatorFactory = new AjaxElementLocatorFactory(Base.getDriver(),20);
         PageFactory.initElements(locatorFactory,this);
 
-        assertTrue("Landing page not loaded", Base.getDriver().findElements(By.cssSelector("span[class*=sb-searchbox]")).size()>0);
+        assertTrue("Landing page not loaded", Base.getDriver().findElements(By.cssSelector("input[type*=search]")).size()>0);
     }
 
     /**
