@@ -83,17 +83,17 @@ confidence that all the search functionalities are working.
 -------------------
 ### Steps
  Scenario: User makes a booking on google chrome
-    Given User lands on booking.com page
-    And User writes destination "Munich"
-    And User chooses random dates
-    And User selects "1" "adult"
-    And User selects "1" "child"
-    And User selects "2" "rooms"
-    And User clicks on search
-    Then User is redirected to search page
-    And User filters by "budget"
-    Then User checks first listings by "budget"
-    And User filters by "review score"
-    Then User checks first listings by "review"
+  1.  Given User lands on booking.com page
+  2.  And User writes destination "Munich"
+  3.  And User chooses random dates
+  4.  And User selects "1" "adult"
+  5.  And User selects "1" "child"
+  6.  And User selects "2" "rooms"
+  7.  And User clicks on search
+  8.  Then User is redirected to search page
+  9.  And User filters by "budget"
+  10.  Then User checks first listings by "budget"
+  11.  And User filters by "review score"
+  12.  Then User checks first listings by "review"
 
 -------------------
