@@ -53,9 +53,9 @@
 ### General Parameters
 * Just 1 parameter exposed to the user from the maven command line
  -Dtags - representing the tags that will run at the execution fo the command.
- @BookingPath executes the scenario for both Chrome and Firefox
- @Chrome wil run the scenario just on Chrome
- @Firefox will run the scenario just on Firefox
+* @BookingPath executes the scenario for both Chrome and Firefox
+*  @Chrome wil run the scenario just on Chrome
+* @Firefox will run the scenario just on Firefox
 
 
 -------------------
