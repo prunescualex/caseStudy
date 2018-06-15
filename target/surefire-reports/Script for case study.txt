@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Script for case study
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 57.552 s <<< FAILURE! - in Script for case study
+User makes a booking on google chrome(Script for case study)  Time elapsed: 57.454 s  <<< ERROR!
+java.lang.IllegalStateException: No match found
+
