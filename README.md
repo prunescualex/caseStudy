@@ -101,8 +101,9 @@ confidence that all the search functionalities are working.
 
 * Consider 100% coverage would be all the manual tests cases that could be performed on the search
 feature of the platform, current automated scenario allows the following:
-  1. Fixed destination
-  2. 
+  * Considering from below table that the manual test cases would be around 12,
+   the automation test cases solved just 7 of them. In this case if 12 are 100%
+   then 7 would result in an rounded 60% coverage.
   
 |Test step  |Automation  | Manual |
 |-| ------------- | ------------- |
@@ -113,4 +114,5 @@ feature of the platform, current automated scenario allows the following:
 |6| Fixed room number  | more cases  |
 |9| Random filtering  | Random filtering  |
 |10| Random filtering  | Random filtering  |
+
 
