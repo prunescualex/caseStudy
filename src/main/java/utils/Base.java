@@ -33,10 +33,6 @@ public class Base {
         {
             case "chrome" : setDriver(launchDriverGoogle());break;
             case "firefox" : setDriver(launchDriverFirefox());break;
-            case "mAndroid" : setDriver(launchMobileAndroid());break;
-            case "tAndroid" : setDriver(launchTabletAndroid());break;
-            case "mIOS" : setDriver(launchMobileIos());break;
-            case "tIOS" : setDriver(launchTabletIos());break;
         }
     }
 
@@ -75,36 +71,6 @@ public class Base {
         driver.manage().window().maximize();
         return driver;
     }
-
-    public static WebDriver launchMobileAndroid(){
-
-        String driverLocation = System.getProperty("user.dir") + "\\browser_drivers\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver",driverLocation);
-
-        Map<String, String> mobileEmulation = new HashMap<>();
-        mobileEmulation.put("deviceName", "Nexus 5");
-
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-
-        driver = new ChromeDriver(chromeOptions);
-        driver.manage().window().maximize();
-
-        return driver;
-    }
-
-    public static WebDriver launchTabletAndroid(){
-        return driver;
-    }
-
-    public static WebDriver launchMobileIos(){
-        return driver;
-    }
-
-    public static WebDriver launchTabletIos(){
-        return driver;
-    }
-
 
     public static void setDriver(WebDriver driver)
     {
